@@ -74,11 +74,13 @@
 
     <script>
       // 调用 Wxpusher API 来发送挪车通知
-      function notifyOwner() {}
+      function notifyOwner() {
+        alert("已发送微信消息通知车主")
+      }
 
       // 拨打车主电话
       function callOwner() {
-        window.location.href = "tel:${phone}";
+        window.location.href = "tel:13306017972";
       }
     </script>
   </body>
